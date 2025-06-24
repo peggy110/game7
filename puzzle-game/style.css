@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', '微軟正黑體', Arial, sans-serif;
+  background: #f0f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #3a7ca5;
+  margin-top: 40px;
+}
+
+#puzzle-container {
+  display: grid;
+  grid-template-columns: repeat(3, 80px);
+  grid-template-rows: repeat(3, 80px);
+  gap: 5px;
+  margin: 30px 0;
+}
+
+.puzzle-piece {
+  width: 80px;
+  height: 80px;
+  background: #fff;
+  border: 2px solid #3a7ca5;
+  font-size: 2rem;
+  color: #3a7ca5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.puzzle-piece.empty {
+  background: #e0e7ef;
+  border: 2px dashed #b0bfcf;
+  cursor: default;
+}
+
+#shuffle {
+  padding: 10px 24px;
+  font-size: 1rem;
+  background: #3a7ca5;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: background 0.2s;
+}
+
+#shuffle:hover {
+  background: #28597a;
+}
+
+#message {
+  color: #2e8b57;
+  font-size: 1.2rem;
+  min-height: 1.5em;
+}
