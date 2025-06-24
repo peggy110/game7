@@ -14,7 +14,7 @@
    ```bash
    git clone https://github.com/peggy110/game7.git
    ```
-2. 用瀏覽器打開 `puzzle-game/index.html` 即可開始遊戲。
+2. 用瀏覽器打開 `index.html` 即可開始遊戲。
 
 ## 檔案結構
 - `index.html`：主頁面
