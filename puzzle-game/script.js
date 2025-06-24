@@ -59,5 +59,9 @@ function isSolved() {
 }
 
 document.getElementById('shuffle').addEventListener('click', shuffleBoard);
+document.getElementById('reset').addEventListener('click', () => {
+  initBoard();
+  document.getElementById('message').textContent = '';
+});
 
 initBoard();
