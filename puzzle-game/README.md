@@ -22,7 +22,7 @@
 - `script.js`：遊戲邏輯
 
 ## 預覽
-可直接在本機瀏覽器開啟，或部署到 GitHub Pages。
+[線上體驗 GitHub Pages 版本](https://peggy110.github.io/game7/)
 
 ---
 
